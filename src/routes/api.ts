@@ -15,14 +15,14 @@ const ProductDetails = lazy(
 );
 
 export const routes = [
-  // {
-  //   path: "/",
-  //   Element: HomePage,
-  // },
   {
-    path: "/Amazon-Clone-Project",
+    path: "/",
     Element: HomePage,
   },
+  // {
+  //   path: "/Amazon-Clone-Project",
+  //   Element: HomePage,
+  // },
   {
     path: "/Amazon-Clone-Project/products",
     Element: ProductsPage,
