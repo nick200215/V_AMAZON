@@ -18,6 +18,8 @@ export const MainRoute = () => {
           return true;
         }
 
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         dispatch(handleLogin(decoded));
         return true;
       } catch (e) {

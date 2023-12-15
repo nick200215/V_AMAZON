@@ -37,7 +37,8 @@ const SignIn = () => {
       if (user.data.jwt) {
         localStorage.setItem("token", user.data.jwt);
         const decoded: UserType = jwt_decode(user.data.jwt);
-
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         dispatch(handleLogin(decoded));
 
         navigate("/Amazon-Clone-Project/");

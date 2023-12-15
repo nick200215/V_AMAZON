@@ -45,8 +45,6 @@ const usersSlice = createSlice({
       state.cartItems.data[product.id] = product;
     },
 
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
     handleLogout: () => {
       localStorage.removeItem("token");
       window.location.href = "/";

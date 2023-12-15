@@ -18,6 +18,8 @@ export const ProtectedRoute = () => {
           return false;
         }
 
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
         dispatch(handleLogin(decoded));
         return true;
       } catch (e) {
