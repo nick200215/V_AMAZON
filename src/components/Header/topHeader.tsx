@@ -9,7 +9,7 @@ const Header = () => {
     <div className="bg-amazon-blue_dark flex flex-col md:flex-row">
       <div className="flex flex-grow items-center p-1 xs:px-8 md:space-x-5 xs:justify-between md:px-4 text-white">
         {/* Logo */}
-        <Link to="/Amazon-Clone-Project/">
+        <Link to="/">
           <img
             src={amazonLogo}
             alt="amazon-logo"
