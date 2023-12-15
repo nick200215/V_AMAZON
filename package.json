@@ -26,6 +26,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^9.0.4",
     "react-router-dom": "^6.21.0",
+    "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
     "slick-slider": "^1.8.2",
     "stripe": "^14.9.0",
