@@ -1,0 +1,60 @@
+.slick-arrow {
+  z-index: 1;
+  cursor: pointer;
+
+  &.slick-prev {
+    left: 15px;
+    width: 40px;
+    height: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background: white;
+
+    z-index: 2;
+
+    &::before {
+      content: "\2190";
+      font-size: 30px;
+      color: gray;
+    }
+  }
+
+  &.slick-next {
+    right: 15px;
+    width: 40px;
+    height: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background: white;
+
+    z-index: 2;
+
+    &::before {
+      content: "\2192";
+      font-size: 30px;
+      color: gray;
+    }
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+
+    button {
+      width: 20px;
+      height: 0px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #666;
+      }
+    }
+  }
+}

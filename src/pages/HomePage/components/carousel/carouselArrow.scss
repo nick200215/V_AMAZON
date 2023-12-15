@@ -1,0 +1,30 @@
+.arrowSwiper {
+  .swiper-button-next {
+    color: #000000;
+
+    margin-right: -10px;
+  }
+
+  .swiper-button-prev {
+    color: #000000;
+    margin-left: -10px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 80px;
+    height: 250px;
+    margin-top: -20%;
+
+    @media screen and (min-width: 200px) and (max-width: 1020px) {
+      display: none;
+    }
+  }
+  .swiper-button-next:focus {
+    outline: none;
+  }
+
+  .swiper-button-prev:focus {
+    outline: none;
+  }
+}

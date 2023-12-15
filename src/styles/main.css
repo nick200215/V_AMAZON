@@ -1,0 +1,33 @@
+.link-footer ul {
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
+.link-footer h5 {
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.link-footer ul > li:hover {
+  text-decoration-line: underline;
+}
+
+.footer-link-services li {
+  width: 6rem;
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.footer-link-services li:hover {
+  text-decoration-line: underline;
+}
+
+.footer-link-services li p {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}

@@ -1,0 +1,162 @@
+{
+  "topLinks": [
+    {
+      "title": "Get to Know Us",
+      "links": [
+        { "text": "Blog", "url": "/" },
+        { "text": "About Amazon", "url": "/" },
+        { "text": "Investor Relations", "url": "/" },
+        { "text": "Amazon Devices", "url": "/" },
+        { "text": "Amazon Science", "url": "/" }
+      ]
+    },
+    {
+      "title": "Make Money with Us",
+      "links": [
+        { "text": "Sell products on Amazon", "url": "/" },
+        { "text": "Sell on Amazon Business", "url": "/" },
+        { "text": "Sell apps on Amazon", "url": "/" },
+        { "text": "Become an Affiliate", "url": "/" },
+        { "text": "Advertise Your Products", "url": "/" },
+        { "text": "Self-Publish with Us", "url": "/" },
+        { "text": "Host an Amazon Hub", "url": "/" },
+        { "text": "See More Make Money with Us", "url": "/" }
+      ]
+    },
+    {
+      "title": "Amazon Payment Products",
+      "links": [
+        { "text": "Amazon Business Card", "url": "/" },
+        { "text": "Shop with Points", "url": "/" },
+        { "text": "Reload Your Balance", "url": "/" },
+        { "text": "Amazon Currency Converter", "url": "/" }
+      ]
+    },
+    {
+      "title": "Let Us Help You",
+      "links": [
+        { "text": "Amazon and COVID-19", "url": "/" },
+        { "text": "Your Account", "url": "/" },
+        { "text": "Your Orders", "url": "/" },
+        { "text": "Shipping Rates & Policies", "url": "/" },
+        { "text": "Returns & Replacements", "url": "/" },
+        { "text": "Manage Your Content and Devices", "url": "/" },
+        { "text": "Amazon Assistant", "url": "/" },
+        { "text": "Help", "url": "/" }
+      ]
+    }
+  ],
+  "bottomLinks": [
+    {
+      "title": "Mazon Music",
+      "description": "Stream millions of songs",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    },
+    {
+      "title": "PillPack",
+      "description": "Pharmacy Simplified",
+      "url": "/"
+    },
+    {
+      "title": "Mazon Music",
+      "description": "Stream millions of songs",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    },
+    {
+      "title": "PillPack",
+      "description": "Pharmacy Simplified",
+      "url": "/"
+    },
+    {
+      "title": "Mazon Music",
+      "description": "Stream millions of songs",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    },
+    {
+      "title": "PillPack",
+      "description": "Pharmacy Simplified",
+      "url": "/"
+    },
+    {
+      "title": "Mazon Music",
+      "description": "Stream millions of songs",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    },
+    {
+      "title": "PillPack",
+      "description": "Pharmacy Simplified",
+      "url": "/"
+    },
+    {
+      "title": "Mazon Music",
+      "description": "Stream millions of songs",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    },
+    {
+      "title": "PillPack",
+      "description": "Pharmacy Simplified",
+      "url": "/"
+    },
+    {
+      "title": "Amazon Global",
+      "description": "Ship Orders Internationally",
+      "url": "/"
+    },
+
+    {
+      "title": "Home Services",
+      "description": "Experienced Pros Happiness Guarantee",
+      "url": "/"
+    }
+  ]
+}

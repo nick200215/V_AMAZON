@@ -1,0 +1,115 @@
+// .tablist {
+//   padding: 0;
+//   overflow: auto;
+//   position: relative;
+
+//   .inner {
+//     display: table;
+//     width: auto;
+//     margin: 0;
+//     padding: 0;
+//     position: relative;
+
+//     padding-right: 20px;
+//   }
+//   &::-webkit-scrollbar {
+//     width: 0;
+//     height: 0;
+//   }
+
+//   &::-webkit-scrollbar-track {
+//     background: transparent;
+//   }
+
+//   &::-webkit-scrollbar-thumb {
+//     background: transparent;
+//     border: none;
+//   }
+
+//   > .inner {
+//     display: table;
+//     width: auto;
+//     margin: 0;
+//     padding: 0;
+//   }
+//   &__tab {
+//     box-sizing: border-box;
+//     display: table-cell;
+//     vertical-align: middle;
+//     margin: 0;
+//     padding: 0 15px;
+//     text-align: center;
+//     white-space: nowrap;
+//     color: #fff;
+//     cursor: pointer;
+//   }
+//   &__link {
+//     &:hover {
+//       border: 1px solid white;
+//       padding: 5px;
+//     }
+//   }
+// }
+
+.tablist {
+  padding: 0;
+  overflow: auto;
+  position: relative;
+  scrollbar-width: thin; /* For Firefox */
+
+  &::-webkit-scrollbar {
+    height: 3px;
+    width: 2px; /* Width of the scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #999; /* Color of the scrollbar thumb */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #999; /* Color of the scrollbar thumb on hover */
+  }
+
+  .inner {
+    display: table;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-right: 20px;
+  }
+
+  > .inner {
+    display: table;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__tab {
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  &__link {
+    &:hover {
+      border: 1px solid white;
+      padding: 5px;
+    }
+    &:focus {
+      border: 1px solid white;
+    }
+  }
+}
